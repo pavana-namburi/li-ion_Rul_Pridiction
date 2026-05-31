@@ -1,0 +1,105 @@
+Folder PATH listing for volume Windows
+Volume serial number is 0000003B D6E7:BEE5
+C:.
+¦   .gitignore
+¦   Algorithm_preprocessing.py
+¦   dataset.txt
+¦   data_splitting.py
+¦   federated_training.py
+¦   nasa_rul_preprocessing.py
+¦   
++---.github
+¦   +---appmod
+¦       +---appcat
++---battery_data
+¦       B0005.mat
+¦       B0006.mat
+¦       B0007.mat
+¦       B0018.mat
+¦       B0025.mat
+¦       B0026.mat
+¦       
++---data
+¦       B0005_discharge.csv
+¦       B0006_discharge.csv
+¦       B0007_discharge.csv
+¦       B0018_discharge.csv
+¦       B0025_discharge.csv
+¦       B0026_discharge.csv
+¦       
++---data_splits
+¦   ¦   split_summary.csv
+¦   ¦   
+¦   +---client_1
+¦   ¦   +---local_test
+¦   ¦   ¦       B0005_local_test.csv
+¦   ¦   ¦       
+¦   ¦   +---train
+¦   ¦   ¦       B0005_train.csv
+¦   ¦   ¦       
+¦   ¦   +---val
+¦   ¦           B0005_val.csv
+¦   ¦           
+¦   +---client_2
+¦   ¦   +---local_test
+¦   ¦   ¦       B0006_local_test.csv
+¦   ¦   ¦       
+¦   ¦   +---train
+¦   ¦   ¦       B0006_train.csv
+¦   ¦   ¦       
+¦   ¦   +---val
+¦   ¦           B0006_val.csv
+¦   ¦           
+¦   +---client_3
+¦   ¦   +---local_test
+¦   ¦   ¦       B0007_local_test.csv
+¦   ¦   ¦       
+¦   ¦   +---train
+¦   ¦   ¦       B0007_train.csv
+¦   ¦   ¦       
+¦   ¦   +---val
+¦   ¦           B0007_val.csv
+¦   ¦           
+¦   +---client_4
+¦   ¦   +---local_test
+¦   ¦   ¦       B0025_local_test.csv
+¦   ¦   ¦       
+¦   ¦   +---train
+¦   ¦   ¦       B0025_train.csv
+¦   ¦   ¦       
+¦   ¦   +---val
+¦   ¦           B0025_val.csv
+¦   ¦           
+¦   +---global_test
+¦   ¦   +---B0026
+¦   ¦           B0026_test.csv
+¦   ¦           
+¦   +---global_val
+¦       +---B0018
+¦               B0018_test.csv
+¦               
++---outputs
+¦       attention_client_1.npy
+¦       attention_client_2.npy
+¦       attention_client_3.npy
+¦       attention_client_4.npy
+¦       fedwavg_weights.npy
+¦       global_model.pt
+¦       global_test_metrics.csv
+¦       local_test_metrics.csv
+¦       training_log.csv
+¦       
++---processed_data
+        client_1_data.npz
+        client_1_global_test.npz
+        client_1_global_val.npz
+        client_2_data.npz
+        client_2_global_test.npz
+        client_2_global_val.npz
+        client_3_data.npz
+        client_3_global_test.npz
+        client_3_global_val.npz
+        client_4_data.npz
+        client_4_global_test.npz
+        client_4_global_val.npz
+        
