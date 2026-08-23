@@ -1,0 +1,32 @@
+battery_data/
+processed_data/
+
+
+# =========================
+# Generated outputs (DO NOT TRACK)
+# =========================
+outputs/
+*.npy
+*.pt
+
+# =========================
+# Optional: ignore regenerated splits (recommended)
+# =========================
+data_splits/
+
+# =========================
+# Python cache & env
+# =========================
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# =========================
+# Editor & OS noise
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

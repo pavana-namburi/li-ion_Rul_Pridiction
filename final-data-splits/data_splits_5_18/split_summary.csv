@@ -1,0 +1,5 @@
+client,battery,train_cycles,val_cycles,test_cycles,global_val_cycles,global_test
+1.0,B0005,86.0,27.0,22,33.0,
+2.0,B0006,86.0,27.0,22,33.0,
+3.0,B0007,86.0,27.0,22,33.0,
+,,,,132,,B0018
